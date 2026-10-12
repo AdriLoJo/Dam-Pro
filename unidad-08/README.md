@@ -27,3 +27,7 @@ https://codelearnacademy.github.io/java/leccion08/
 - Ventaja de consultas parametrizadas.
 - Responsabilidad de un DAO.
 
+## Ejercicios de práctica
+1. Crear una tabla de alumnos.
+2. Insertar y consultar registros.
+3. Modificar y borrar registros.
