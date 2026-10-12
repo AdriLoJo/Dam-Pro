@@ -27,3 +27,7 @@ https://codelearnacademy.github.io/java/leccion07/
 - Interfaz frente a clase abstracta.
 - Polimorfismo en Java.
 
+## Ejercicios de práctica
+1. Crear una jerarquía de vehículos.
+2. Implementar una interfaz Notificable.
+3. Sobrescribir un método.
