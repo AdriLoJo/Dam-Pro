@@ -33,3 +33,6 @@ https://codelearnacademy.github.io/java/leccion04/
 
 ## Revisión desde GitHub
 La encapsulación ayuda a mantener un diseño claro y controlado.
+
+## Ronda de sincronización 1
+El equipo 1 publica el primer cambio de sincronización.
