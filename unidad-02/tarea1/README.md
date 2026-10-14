@@ -500,4 +500,23 @@ El profesor revisará:
 
 Si terminas antes, haz que el programa pregunte también cuántas **unidades** se compran de cada producto. Calcula el subtotal de cada producto como `precio × unidades` y acumula los subtotales en el total. Registra esta mejora en un commit independiente.
 
+## Desarrollo y pruebas del alumno
+
+### Cómo funciona mi programa
+
+El programa utiliza un objeto `Scanner` para leer los datos que introduce el usuario. El nombre del cliente y los nombres de los productos se guardan en variables de tipo `String`, mientras que la cantidad de productos se guarda en una variable de tipo `int`.
+
+Un bucle `for` se repite tantas veces como productos se hayan indicado. En cada vuelta se solicita el nombre y el precio del producto. El precio se almacena en una variable de tipo `float` y se suma a otro `float` llamado `total`, que funciona como acumulador. Al terminar el bucle se muestran el cliente, la cantidad de productos, el importe total y un mensaje de despedida.
+
+### Pruebas realizadas
+
+1. Introduje un producto con un precio de 5 euros. El total mostrado fue `5,00 euros`.
+2. Introduje dos productos con precios de 2 y 3 euros. El total mostrado fue `5,00 euros`.
+3. Introduje tres productos con precios de 1,50, 2,50 y 4 euros. El total mostrado fue `8,00 euros`.
+4. Introduje cuatro productos con un precio de 1 euro cada uno. El total mostrado fue `4,00 euros`.
+
+### Dificultades y soluciones
+
+Revisé con especial atención la combinación de `nextInt()`, `nextFloat()` y `nextLine()`. Después de leer un número queda pendiente el salto de línea, por lo que añadí una llamada a `nextLine()` para consumirlo antes de pedir el siguiente nombre. Así se evita que el programa lea un nombre vacío y continúe sin esperar al usuario.
+
 
