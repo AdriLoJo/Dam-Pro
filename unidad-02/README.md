@@ -1,3 +1,6 @@
+**Autor:** AdriLoJo  
+**Versión:** 1.0
+
 # Unidad 02 - Fundamentos de Java
 
 ## Descripción
@@ -37,3 +40,10 @@ Las variables y los métodos permiten construir programas reutilizables.
 
 ## Seguimiento del equipo 1
 Revisión realizada desde la primera copia local.
+
+## Índice de tareas
+
+| Tarea | Descripción | Estado |
+|---|---|---|
+| [Tarea 1](tarea1/) | Generador de tickets de compra | Completada |
+| [Tarea 2](tarea2/) | Conversor de medidas interactivo | Completada |
